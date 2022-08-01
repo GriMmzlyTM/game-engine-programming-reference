@@ -10,10 +10,6 @@ struct Vector3 {
     Vector3() = default;
     Vector3(float a, float b, float c) : x(a), y(b), z(c) {}
 
-    float& operator [](int i) {
-        return (&x)[i];
-    }
-
     Vector3& operator *=(float s) {
         x *= s;
         y *= s;
@@ -42,10 +38,16 @@ struct Vector3 {
         z -= s;
         return *this;
     }
+
+    float& operator [](int i) {
+        return (&x)[i];
+    }
+
     
     const float& operator [](int i) const {
         return (&x)[i];
     }
+
 };
 
 inline Vector3 operator +(const Vector3& v1, const Vector3& v2) {
@@ -75,4 +77,4 @@ inline float Magnitude(const Vector3& v) {
 
 inline Vector3 Normalize(const Vector3& v) {
     return v / Magnitude(v);
-} 
+}

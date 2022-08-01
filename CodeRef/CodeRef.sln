@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodeRef", "CodeRef.vcxproj", "{5A00EE38-C2CF-468F-8A7E-3AC674B853BC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests", "Tests\Tests.vcxproj", "{AEB6E6F6-F81E-4BA2-A606-65B8166058CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -18,5 +20,13 @@ Global
 		{5A00EE38-C2CF-468F-8A7E-3AC674B853BC}.Release|Win32.Build.0 = Release|Win32
 		{5A00EE38-C2CF-468F-8A7E-3AC674B853BC}.Release|x64.ActiveCfg = Release|x64
 		{5A00EE38-C2CF-468F-8A7E-3AC674B853BC}.Release|x64.Build.0 = Release|x64
+		{AEB6E6F6-F81E-4BA2-A606-65B8166058CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AEB6E6F6-F81E-4BA2-A606-65B8166058CA}.Debug|Win32.Build.0 = Debug|Win32
+		{AEB6E6F6-F81E-4BA2-A606-65B8166058CA}.Debug|x64.ActiveCfg = Debug|x64
+		{AEB6E6F6-F81E-4BA2-A606-65B8166058CA}.Debug|x64.Build.0 = Debug|x64
+		{AEB6E6F6-F81E-4BA2-A606-65B8166058CA}.Release|Win32.ActiveCfg = Release|Win32
+		{AEB6E6F6-F81E-4BA2-A606-65B8166058CA}.Release|Win32.Build.0 = Release|Win32
+		{AEB6E6F6-F81E-4BA2-A606-65B8166058CA}.Release|x64.ActiveCfg = Release|x64
+		{AEB6E6F6-F81E-4BA2-A606-65B8166058CA}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal

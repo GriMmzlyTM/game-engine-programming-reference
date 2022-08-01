@@ -159,6 +159,7 @@
     <ClCompile Include="CodeRef.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Mathematics\Vectors and Matrices\Matrix3.h" />
     <ClInclude Include="Mathematics\Vectors and Matrices\Vector3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
