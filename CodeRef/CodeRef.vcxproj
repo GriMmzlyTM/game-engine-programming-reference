@@ -154,7 +154,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Chapter 3\JaitorAndRAII.cpp" />
+    <ClCompile Include="Chapter 3\Polymorphism.cpp" />
     <ClCompile Include="CodeRef.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mathematics\Vectors and Matrices\Vector3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
